@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_top_banner_top_banners",
+  "info": {
+    "displayName": "top-banner",
+    "icon": "arrows-alt-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bigTitle": {
+      "type": "string"
+    },
+    "smallTitle": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "back_ground_screens",
+  "info": {
+    "singularName": "back-ground-screen",
+    "pluralName": "back-ground-screens",
+    "displayName": "backGroundScreen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageAndDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-and-description-row.image-and-description-row"
+    },
+    "topBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "top-banner.top-banner"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "bottom_row_capabilities",
+  "info": {
+    "singularName": "bottom-row-capabilitie",
+    "pluralName": "bottom-row-capabilities",
+    "displayName": "bottom-row-capabilities"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features-card.features-card"
+    }
+  }
+}

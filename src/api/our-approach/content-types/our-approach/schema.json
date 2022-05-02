@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_approaches",
+  "info": {
+    "singularName": "our-approach",
+    "pluralName": "our-approaches",
+    "displayName": "ourApproach"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "top-banner.top-banner"
+    },
+    "imageAndDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-and-description-row.image-and-description-row"
+    }
+  }
+}

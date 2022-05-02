@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "market_ecosystem_homes",
+  "info": {
+    "singularName": "market-ecosystem-home",
+    "pluralName": "market-ecosystem-homes",
+    "displayName": "market-ecosystem-home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features-card.features-card"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

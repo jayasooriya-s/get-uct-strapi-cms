@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "market_ecosystems",
+  "info": {
+    "singularName": "market-ecosystem",
+    "pluralName": "market-ecosystems",
+    "displayName": "MarketEcosystem",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageMobile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imageWeb": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

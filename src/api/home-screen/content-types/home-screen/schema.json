@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_screens",
+  "info": {
+    "singularName": "home-screen",
+    "pluralName": "home-screens",
+    "displayName": "home-screen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "top-banner.top-banner"
+    },
+    "firstImageAndDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-and-description-row.image-and-description-row"
+    },
+    "secondImageAndDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-and-description-row.image-and-description-row"
+    }
+  }
+}

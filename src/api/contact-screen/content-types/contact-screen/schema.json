@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_screens",
+  "info": {
+    "singularName": "contact-screen",
+    "pluralName": "contact-screens",
+    "displayName": "ContactScreen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contactEmail": {
+      "type": "email"
+    },
+    "address": {
+      "displayName": "address",
+      "type": "component",
+      "repeatable": true,
+      "component": "address.address"
+    },
+    "topBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "top-banner.top-banner"
+    }
+  }
+}
